@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category - VitalWealth</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>VitalWealth</h1>
+                </div>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="dropdown">
+                            <a href="#categories" class="active">Categories</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="category.html?cat=fashion">Fashion & Accessories</a></li>
+                                <li><a href="category.html?cat=health">Health & Beauty</a></li>
+                                <li><a href="category.html?cat=home">Home & Garden</a></li>
+                                <li><a href="category.html?cat=travel">Travel & Accommodation</a></li>
+                                <li><a href="category.html?cat=finance">Finance & Insurance</a></li>
+                                <li><a href="category.html?cat=food">Food & Beverage</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="search-icon" id="searchToggle">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="mobile-toggle" id="mobileToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <!-- Search Bar -->
+        <div class="search-bar" id="searchBar">
+            <div class="container">
+                <input type="text" id="searchInput" placeholder="Search within this category...">
+                <button id="searchClose"><i class="fas fa-times"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Category Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 id="categoryTitle">Category</h1>
+            <p id="categoryDescription">Explore our curated articles</p>
+        </div>
+    </section>
+
+    <!-- Articles -->
+    <section class="articles-section">
+        <div class="container">
+            <div class="articles-grid" id="articlesGrid">
+                <!-- Articles will be loaded dynamically -->
+            </div>
+            <div class="pagination" id="pagination">
+                <!-- Pagination will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>VitalWealth</h3>
+                    <p>Elevating your lifestyle through curated insights and recommendations.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="index.html#categories">Categories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://pinterest.com" target="_blank"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 VitalWealth. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/category.js"></script>
+</body>
+</html>
+
