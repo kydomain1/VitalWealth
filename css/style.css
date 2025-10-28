@@ -587,6 +587,28 @@ img {
     color: var(--text-primary);
 }
 
+.article-content a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 2px solid #0066cc;
+    padding-bottom: 2px;
+    transition: var(--transition-smooth);
+    position: relative;
+}
+
+.article-content a:hover {
+    color: #004499;
+    border-bottom-color: #004499;
+    background-color: rgba(0, 102, 204, 0.1);
+    padding: 2px 4px;
+    border-radius: 2px;
+}
+
+.article-content a:active {
+    transform: translateY(1px);
+}
+
 /* ==================== PRODUCTS SECTION ==================== */
 .related-products {
     margin-top: var(--spacing-xl);
