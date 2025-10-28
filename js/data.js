@@ -376,7 +376,7 @@ const articlesData = [
         category: "fashion",
         categoryName: "Fashion & Accessories",
         date: "September 22, 2025",
-        excerpt: "Discover how <a href='https://www.linkhaitao.com/index.php?mod=lhdeal&track=e877LZBlLSDcZE3YvOPfxTSnMh71dJalumL6ffOGs97N1TXa0fpzsyh6Te9kcnSmvi6QOQ_c_c&new=https%3A%2F%2Fwww.gilt.com%2Fboutique%2F' target='_blank'>Gilt</a> revolutionizes luxury shopping with exclusive flash sales, designer brands at up to 70% off, and a curated experience that makes finding premium fashion thrilling.",
+        excerpt: "Discover how Gilt revolutionizes luxury shopping with exclusive flash sales, designer brands at up to 70% off, and a curated experience that makes finding premium fashion thrilling.",
         image: "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?w=800&h=600&fit=crop",
         content: `
             <p>In the world of luxury shopping, few platforms have mastered the art of the hunt quite like <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=e877LZBlLSDcZE3YvOPfxTSnMh71dJalumL6ffOGs97N1TXa0fpzsyh6Te9kcnSmvi6QOQ_c_c&new=https%3A%2F%2Fwww.gilt.com%2Fboutique%2F" target="_blank">Gilt</a>. Since its launch, <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=e877LZBlLSDcZE3YvOPfxTSnMh71dJalumL6ffOGs97N1TXa0fpzsyh6Te9kcnSmvi6QOQ_c_c&new=https%3A%2F%2Fwww.gilt.com%2Fboutique%2F" target="_blank">Gilt</a> has transformed the way fashion enthusiasts discover and purchase designer pieces, offering an exhilarating shopping experience that combines exclusivity, value, and impeccable curation.</p>
